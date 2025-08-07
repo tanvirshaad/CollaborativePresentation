@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Site Status";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1>Site Status Check</h1>
+    
+    <div class="alert alert-success">
+        <h3>Application is Running!</h3>
+        <p>If you can see this page, it means the web application is running correctly.</p>
+    </div>
+    
+    <h3>Environment Information</h3>
+    <table class="table table-bordered">
+        <tr>
+            <th>Environment</th>
+            <td>@Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")</td>
+        </tr>
+        <tr>
+            <th>Server Time</th>
+            <td>@DateTime.Now</td>
+        </tr>
+        <tr>
+            <th>Server Name</th>
+            <td>@Environment.MachineName</td>
+        </tr>
+        <tr>
+            <th>.NET Version</th>
+            <td>@Environment.Version</td>
+        </tr>
+    </table>
+
+    <h3>Database Connection Test</h3>
+    <div id="dbStatus" class="alert alert-info">
+        Testing database connection...
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: '@Url.Action("TestDatabaseConnection")',
+                type: 'GET',
+                success: function(result) {
+                    if(result.success) {
+                        $('#dbStatus').removeClass('alert-info').addClass('alert-success')
+                            .html('<strong>Success!</strong> Database connection is working.');
+                    } else {
+                        $('#dbStatus').removeClass('alert-info').addClass('alert-danger')
+                            .html('<strong>Error!</strong> ' + result.message);
+                    }
+                },
+                error: function() {
+                    $('#dbStatus').removeClass('alert-info').addClass('alert-danger')
+                        .html('<strong>Error!</strong> Could not test database connection.');
+                }
+            });
+        });
+    </script>
+}

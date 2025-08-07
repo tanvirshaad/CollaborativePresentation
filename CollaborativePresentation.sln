@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativePresentation", "CollaborativePresentation\CollaborativePresentation.csproj", "{520551CB-B2BD-4B7B-9B56-761B8AB64051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520551CB-B2BD-4B7B-9B56-761B8AB64051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520551CB-B2BD-4B7B-9B56-761B8AB64051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520551CB-B2BD-4B7B-9B56-761B8AB64051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520551CB-B2BD-4B7B-9B56-761B8AB64051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAD9C865-4084-4FF3-B97E-B152C87A8EEA}
+	EndGlobalSection
+EndGlobal

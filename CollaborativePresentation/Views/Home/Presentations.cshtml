@@ -1,0 +1,191 @@
+﻿﻿
+@model IEnumerable<CollaborativePresentation.Models.Presentation>
+@{
+    ViewData["Title"] = "Presentations";
+}
+<div class="container">
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="display-6">
+        <i class="fas fa-presentation-screen me-2 text-primary"></i>
+        My Presentations
+    </h1>
+    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#createModal">
+        <i class="fas fa-plus me-2"></i>
+        Create New Presentation
+    </button>
+</div>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-triangle me-2"></i>
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="text-center py-5">
+        <i class="fas fa-presentation-screen fa-4x text-muted mb-3"></i>
+        <h3 class="text-muted">No presentations yet</h3>
+        <p class="text-muted">Create your first presentation to get started!</p>
+        <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#createModal">
+            <i class="fas fa-plus me-2"></i>
+            Create Your First Presentation
+        </button>
+    </div>
+}
+else
+{
+    <div class="mb-4 d-flex justify-content-start action-buttons" id="presentationActions" style="display: none;">
+        <button id="editPresentationBtn" class="btn btn-primary me-2" disabled>
+            <i class="fas fa-edit me-1"></i>
+            Edit Selected
+        </button>
+        <button id="presentPresentationBtn" class="btn btn-success" disabled>
+            <i class="fas fa-play me-1"></i>
+            Present Selected
+        </button>
+    </div>
+    
+    <div class="list-group" id="presentationsList">
+        @foreach (var presentation in Model)
+        {
+            <div class="list-group-item list-group-item-action p-4 mb-3 border-0 shadow-sm presentation-list-item" 
+                 data-id="@presentation.Id" 
+                 onclick="selectPresentation(this, '@presentation.Id')">
+                <div class="d-flex w-100 justify-content-between align-items-center">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center mb-2">
+                            <h5 class="mb-0 me-2">@presentation.Title</h5>
+                            @if (presentation.CreatorName == ViewBag.Username)
+                            {
+                                <span class="badge bg-success">
+                                    <i class="fas fa-crown me-1"></i>
+                                    Creator
+                                </span>
+                            }
+                        </div>
+                        <div class="text-muted small">
+                            <span class="me-3">
+                                <i class="fas fa-user me-1"></i>
+                                Created by @presentation.CreatorName
+                            </span>
+                            <span class="me-3">
+                                <i class="fas fa-calendar me-1"></i>
+                                @presentation.CreatedAt.ToString("MMM dd, yyyy")
+                            </span>
+                            <span>
+                                <i class="fas fa-users me-1"></i>
+                                @presentation.ConnectedUsers.Count() user(s) connected
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<!-- Create Presentation Modal -->
+<div class="modal fade" id="createModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-plus me-2"></i>
+                    Create New Presentation
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form asp-action="CreatePresentation" method="post">
+                @Html.AntiForgeryToken()
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Presentation Title</label>
+                        <input type="text" class="form-control" id="title" name="title"
+                               placeholder="Enter presentation title" required maxlength="255">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-plus me-2"></i>
+                        Create Presentation
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<style>
+    .presentation-list-item {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+        .presentation-list-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+            background-color: #f8f9fa;
+        }
+
+    h5 {
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    .btn {
+        border-radius: 8px;
+    }
+    
+    .presentation-list-item.selected {
+        background-color: #e7f3ff;
+        border-left: 4px solid #0d6efd;
+    }
+</style>
+
+<script>
+    // Show the action buttons when the page loads if we have presentations
+    document.addEventListener('DOMContentLoaded', function() {
+        if (document.querySelectorAll('#presentationsList .presentation-list-item').length > 0) {
+            document.getElementById('presentationActions').style.display = 'flex';
+        }
+    });
+
+    // Handle presentation selection
+    let selectedPresentationId = null;
+    
+    function selectPresentation(element, id) {
+        // Remove selected class from all items
+        document.querySelectorAll('.presentation-list-item').forEach(item => {
+            item.classList.remove('selected');
+        });
+        
+        // Add selected class to clicked item
+        element.classList.add('selected');
+        
+        // Store the selected presentation ID
+        selectedPresentationId = id;
+        
+        // Enable the action buttons
+        document.getElementById('editPresentationBtn').disabled = false;
+        document.getElementById('presentPresentationBtn').disabled = false;
+    }
+    
+    // Set up event listeners for the action buttons
+    document.getElementById('editPresentationBtn').addEventListener('click', function() {
+        if (selectedPresentationId) {
+            window.location.href = '@Url.Action("Edit")/' + selectedPresentationId;
+        }
+    });
+    
+    document.getElementById('presentPresentationBtn').addEventListener('click', function() {
+        if (selectedPresentationId) {
+            window.location.href = '@Url.Action("Present")/' + selectedPresentationId;
+        }
+    });
+</script>
