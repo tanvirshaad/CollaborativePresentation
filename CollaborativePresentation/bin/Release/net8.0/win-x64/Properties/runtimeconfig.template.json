@@ -1,0 +1,8 @@
+{
+  "configProperties": {
+    "System.GC.Server": true,
+    "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
+    "System.Runtime.TieredCompilation": true,
+    "System.Runtime.TieredCompilationQuickJit": true
+  }
+}
