@@ -82,7 +82,7 @@ namespace CollaborativePresentation.Controllers
                 return Forbid("Only the creator can delete slides");
             }
 
-            // Don't allow deleting the last slide
+            
             var slideCount = await _context.Slides.CountAsync(s => s.PresentationId == request.PresentationId);
             if (slideCount <= 1)
             {

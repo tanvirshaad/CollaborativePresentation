@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews(options =>
 {
     options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
 });
 
-// Add DbContext
+
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("CollaborativePresentation")));
 
@@ -54,8 +54,7 @@ using (var scope = app.Services.CreateScope())
         var logger = services.GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "An error occurred while applying migrations. Error: {ErrorMessage}", ex.Message);
         
-        // Continue execution even if migrations fail - this helps the site load even with DB issues
-        // In production, you might want to show a maintenance page instead
+       
     }
 }
 

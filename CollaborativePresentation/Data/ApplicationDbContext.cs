@@ -17,7 +17,7 @@ namespace CollaborativePresentation.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configure Presentation entity
+            
             modelBuilder.Entity<Presentation>(entity =>
             {
                 entity.HasKey(e => e.Id);
@@ -26,7 +26,7 @@ namespace CollaborativePresentation.Data
                 entity.Property(e => e.CreatedAt).IsRequired();
             });
 
-            // Configure Slide entity
+            
             modelBuilder.Entity<Slide>(entity =>
             {
                 entity.HasKey(e => e.Id);

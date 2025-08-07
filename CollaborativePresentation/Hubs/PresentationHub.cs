@@ -20,7 +20,7 @@ namespace CollaborativePresentation.Hubs
         {
             try
             {
-                // Get the current user nickname
+                
                 var nickname = _httpContextAccessor.HttpContext?.Session.GetString("UserNickname");
                 if (string.IsNullOrEmpty(nickname))
                 {
@@ -28,7 +28,7 @@ namespace CollaborativePresentation.Hubs
                     return;
                 }
                 
-                // Check if the user has permission to edit slides
+                
                 var slide = await _db.Slides
                     .Include(s => s.Presentation)
                     .ThenInclude(p => p.ConnectedUsers)
@@ -47,7 +47,7 @@ namespace CollaborativePresentation.Hubs
                     return;
                 }
                 
-                // Send the drawing update to all other clients
+                
                 await Clients.OthersInGroup(slideId).SendAsync("UpdateDrawing", Data);
             }
             catch (Exception ex)
@@ -78,7 +78,7 @@ namespace CollaborativePresentation.Hubs
                     return;
                 }
 
-                // Validate SVG data first
+                
                 if (string.IsNullOrEmpty(svgData))
                 {
                     Console.WriteLine("Empty SVG data received");
@@ -86,7 +86,7 @@ namespace CollaborativePresentation.Hubs
                     return;
                 }
 
-                // Make sure it's actually SVG data
+                
                 if (!svgData.Contains("<svg"))
                 {
                     Console.WriteLine("Invalid SVG data format");
@@ -143,7 +143,7 @@ namespace CollaborativePresentation.Hubs
                 
                 try 
                 {
-                    // Convert SVG string to bytes - handle potential encoding issues
+                    
                     byte[] svgBytes;
                     try
                     {
@@ -162,19 +162,19 @@ namespace CollaborativePresentation.Hubs
                         return;
                     }
 
-                    // Update slide with new data
+                    
                     slide.SvgData = svgBytes;
                     slide.LastModified = DateTime.UtcNow;
                     
-                    // Save to database
+                    
                     await _db.SaveChangesAsync();
                     Console.WriteLine($"Successfully saved SVG data for slide {slideId}");
                     
-                    // Broadcast success to all clients
+                    
                     await Clients.Group(slideId).SendAsync("SvgSaved", slideId);
                     Console.WriteLine($"Broadcast SvgSaved event for slide {slideId}");
                     
-                    // Also send a direct confirmation to the caller
+                    
                     await Clients.Caller.SendAsync("SaveSuccessful", slideId);
                 }
                 catch (Exception dbEx) 

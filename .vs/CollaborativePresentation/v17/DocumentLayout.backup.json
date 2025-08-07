@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\itransition\\CollaborativePresentation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\presentationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\presentationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\hubs\\presentationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\hubs\\presentationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\controllers\\presentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\controllers\\presentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\collaborativepresentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -23,14 +55,6 @@
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\controllers\\presentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\controllers\\presentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\views\\shared\\_jsdrawlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\views\\shared\\_jsdrawlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\views\\home\\presentations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -61,22 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\presentationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\presentationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\models\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\models\\presentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|d:\\itransition\\collaborativepresentation\\collaborativepresentation\\hubs\\presentationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520551CB-B2BD-4B7B-9B56-761B8AB64051}|CollaborativePresentation\\CollaborativePresentation.csproj|solutionrelative:collaborativepresentation\\hubs\\presentationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,24 +90,19 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CollaborativePresentation",
+              "DocumentIndex": 10,
+              "Title": "CollaborativePresentation.csproj",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\CollaborativePresentation.csproj",
               "RelativeDocumentMoniker": "CollaborativePresentation\\CollaborativePresentation.csproj",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\CollaborativePresentation.csproj",
               "RelativeToolTip": "CollaborativePresentation\\CollaborativePresentation.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-07T20:04:25.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2025-08-07T20:04:25.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Shared\\_Layout.cshtml",
@@ -115,12 +110,11 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T18:17:17.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T18:17:17.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "_JsDrawLayout.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Shared\\_JsDrawLayout.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Shared\\_JsDrawLayout.cshtml",
@@ -128,12 +122,11 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Shared\\_JsDrawLayout.cshtml",
               "ViewState": "AgIAAFQAAAAAAAAAAADgv2EAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T17:34:21.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T17:34:21.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Home\\Edit.cshtml",
@@ -141,12 +134,11 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Home\\Edit.cshtml",
               "ViewState": "AgIAAGEAAAAAAAAAAAAhwHIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T17:34:04.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T17:34:04.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "site.css",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CollaborativePresentation\\wwwroot\\css\\site.css",
@@ -154,12 +146,11 @@
               "RelativeToolTip": "CollaborativePresentation\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAGkAAAAAAAAAAAAzwHYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-06T09:44:54.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:44:54.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "site.js",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "CollaborativePresentation\\wwwroot\\js\\site.js",
@@ -167,12 +158,11 @@
               "RelativeToolTip": "CollaborativePresentation\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAMgAAAAAAAAAAAAIwOEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-06T09:44:38.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:44:38.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Presentations.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Home\\Presentations.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Home\\Presentations.cshtml",
@@ -180,12 +170,11 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Home\\Presentations.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T09:43:06.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:43:06.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Present.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Home\\Present.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Home\\Present.cshtml",
@@ -193,12 +182,11 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Home\\Present.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T09:40:08.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:40:08.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Views\\Home\\Login.cshtml",
@@ -206,21 +194,19 @@
               "RelativeToolTip": "CollaborativePresentation\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-06T09:39:45.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:39:45.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PresentationController.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Controllers\\PresentationController.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Controllers\\PresentationController.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Controllers\\PresentationController.cs",
               "RelativeToolTip": "CollaborativePresentation\\Controllers\\PresentationController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAhwCkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAvwFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:33:54.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:33:54.168Z"
             },
             {
               "$type": "Document",
@@ -230,27 +216,25 @@
               "RelativeDocumentMoniker": "CollaborativePresentation\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CollaborativePresentation\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHoBAAAAAAAAAAAhwIoBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB8CAAAAAAAAAAAQwNgBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:32:31.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T09:32:31.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "PresentationHub.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Hubs\\PresentationHub.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Hubs\\PresentationHub.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Hubs\\PresentationHub.cs",
               "RelativeToolTip": "CollaborativePresentation\\Hubs\\PresentationHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAuwLAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T17:37:37.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T17:37:37.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\appsettings.json",
               "RelativeDocumentMoniker": "CollaborativePresentation\\appsettings.json",
@@ -258,25 +242,24 @@
               "RelativeToolTip": "CollaborativePresentation\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-05T11:00:10.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T11:00:10.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Program.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Program.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Program.cs",
               "RelativeToolTip": "CollaborativePresentation\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T10:59:40.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "PresentationRequest.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\PresentationRequest.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Models\\PresentationRequest.cs",
@@ -284,60 +267,59 @@
               "RelativeToolTip": "CollaborativePresentation\\Models\\PresentationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:52:59.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T10:52:59.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Slide.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\Slide.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Models\\Slide.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\Slide.cs",
               "RelativeToolTip": "CollaborativePresentation\\Models\\Slide.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABOwBIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:52:34.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T10:52:34.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
               "Title": "Presentation.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\Presentation.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Models\\Presentation.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\Presentation.cs",
               "RelativeToolTip": "CollaborativePresentation\\Models\\Presentation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:52:19.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T10:52:19.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\User.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Models\\User.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Models\\User.cs",
               "RelativeToolTip": "CollaborativePresentation\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:51:20.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T10:51:20.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CollaborativePresentation\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\itransition\\CollaborativePresentation\\CollaborativePresentation\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "CollaborativePresentation\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwCsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:40:18.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T10:40:18.974Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
